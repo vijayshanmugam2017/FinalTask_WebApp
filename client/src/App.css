@@ -1,0 +1,57 @@
+.App {
+  /* background-image: url('./IPL.jpeg'); */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App img {
+  width: initial;
+  height: 609px;
+}
+/* Main page */
+ul.mainpage {
+  position: absolute;
+  top: 25%;
+  list-style: none;
+  margin: 2em;
+}
+
+ul.mainpage li button {
+  background-color: #43ced7d1;
+  border-radius: 5px;
+  border-color: black;
+  padding: .5em;
+  margin: .5em;
+}
+
+ul.mainpage li button a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+.player_information {
+  color: white;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  display: flex;
+  font-size: larger;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.player_information input{
+  width: 200px;
+  font-size: 14px;
+  padding: 0 0 0 10px;
+  margin: 10px;
+}
+.player_information button{
+  height: 30px;
+  margin-top: 10px;
+}
+.player_information button:hover{
+  cursor: pointer;
+}
